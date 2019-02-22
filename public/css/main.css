@@ -23,6 +23,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: 'Montserrat', sans-serif; }
 
@@ -120,6 +123,29 @@ nav {
     background-position: center;
     margin: 1rem;
     position: relative; }
+    .work .projects .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 72%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #1a1a1a; }
+    .work .projects:hover .overlay {
+      opacity: 1; }
+    .work .projects .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center; }
     .work .projects .button-container {
       position: absolute;
       bottom: 0;
@@ -130,12 +156,11 @@ nav {
         position: relative;
         border-radius: 0px;
         padding: 15px;
-        background-color: beige;
-        margin: 1rem;
+        background-color: orange;
         text-align: center;
         color: #1a1a1a; }
         .work .projects .button-container .button:hover {
-          background-color: #f85252;
+          background-color: #f8cb6b;
           color: #eee;
           transition: ease-in-out .2s; }
       .work .projects .button-container #github {
