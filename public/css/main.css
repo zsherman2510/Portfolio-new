@@ -52,6 +52,8 @@ nav {
       letter-spacing: 3px;
       font-weight: bold;
       font-size: 14px; }
+      nav .nav-links a:hover {
+        border-bottom: 1px solid #eee; }
     nav .nav-links li {
       list-style: none; }
   nav .burger {
@@ -230,7 +232,7 @@ nav {
       background-image: url(/public/images/left-img.jpeg);
       background-size: cover;
       background-position: top;
-      height: 400px;
+      height: 600px;
       width: 400px; }
 
 .social {

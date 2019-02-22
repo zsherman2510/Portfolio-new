@@ -36,7 +36,10 @@ nav {
             text-decoration: none;
             letter-spacing: 3px;
             font-weight: bold;
-            font-size: 14px;
+			font-size: 14px;
+			&:hover{
+				border-bottom: 1px solid #eee;
+			}
         }
         li {
             list-style: none;
@@ -259,7 +262,7 @@ nav {
             background-image: url(/public/images/left-img.jpeg);
             background-size: cover;
             background-position: top;
-            height: 400px;
+            height: 600px;
             width: 400px;
         }
     }
