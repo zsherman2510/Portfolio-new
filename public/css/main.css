@@ -130,20 +130,31 @@ nav {
         position: relative;
         border-radius: 0px;
         padding: 15px;
-        background-color: red;
+        background-color: beige;
         margin: 1rem;
-        text-align: center; }
+        text-align: center;
+        color: #1a1a1a; }
+        .work .projects .button-container .button:hover {
+          background-color: #f85252;
+          color: #eee;
+          transition: ease-in-out .2s; }
+      .work .projects .button-container #github {
+        background-color: #1a1a1a;
+        color: #eee; }
+        .work .projects .button-container #github:hover {
+          background-color: #666666;
+          color: #eee; }
       .work .projects .button-container a {
         color: #eee;
         text-decoration: none; }
-    .work .projects [data-scroll] {
-      transition: all 2s; }
-    .work .projects [data-scroll="in"] {
-      opacity: 1;
-      transform: translateX(0); }
-    .work .projects [data-scroll="out"] {
-      opacity: 0;
-      transform: translateX(-200px); }
+  .work #project1 {
+    background: url(/public/images/food2fork.png);
+    background-size: cover;
+    background-position: center; }
+  .work #project3 {
+    background: url(/public/images/heartycafe.png);
+    background-size: cover;
+    background-position: center; }
 
 .title {
   text-align: center;
@@ -168,6 +179,14 @@ nav {
       background-position: center;
       height: 400px;
       width: 400px; }
+  .learning [data-scroll] {
+    transition: all 2s; }
+  .learning [data-scroll="in"] {
+    opacity: 1;
+    transform: translateX(0); }
+  .learning [data-scroll="out"] {
+    opacity: 0;
+    transform: translateX(-200px); }
 
 .about {
   height: 100%;
@@ -209,3 +228,14 @@ nav {
     display: flex;
     justify-content: center;
     padding: 2rem; }
+
+[data-scroll] {
+  transition: all 2s; }
+
+[data-scroll="in"] {
+  opacity: 1;
+  transform: translateX(0); }
+
+[data-scroll="out"] {
+  opacity: 0;
+  transform: translateX(-200px); }
