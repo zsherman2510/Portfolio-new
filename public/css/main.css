@@ -178,6 +178,10 @@ nav {
     background: url(/public/images/food2fork.png);
     background-size: cover;
     background-position: center; }
+  .work #project2 {
+    background: url(/public/images/real-estate-app.png);
+    background-size: cover;
+    background-position: center; }
   .work #project3 {
     background: url(/public/images/heartycafe.png);
     background-size: cover;
