@@ -117,6 +117,14 @@ nav {
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly; }
+  .work .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center; }
+    .work .container .side-about {
+      display: flex;
+      color: #202020; }
   .work .projects {
     background: url(/public/images/projects-img.jpg);
     height: 350px;
@@ -125,67 +133,47 @@ nav {
     background-position: center;
     margin: 1rem;
     position: relative; }
-    .work .projects .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 72%;
-      width: 100%;
-      opacity: 0;
-      transition: .5s ease;
-      background-color: #1a1a1a; }
-    .work .projects:hover .overlay {
-      opacity: 1; }
-    .work .projects .text {
-      color: white;
-      font-size: 20px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: center; }
-    .work .projects .button-container {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%; }
-      .work .projects .button-container .button {
-        display: block;
-        position: relative;
-        border-radius: 0px;
-        padding: 15px;
-        background-color: orange;
-        text-align: center;
-        color: #1a1a1a; }
-        .work .projects .button-container .button:hover {
-          background-color: #f8cb6b;
-          color: #eee;
-          transition: ease-in-out .2s; }
-      .work .projects .button-container #github {
-        background-color: #1a1a1a;
-        color: #eee; }
-        .work .projects .button-container #github:hover {
-          background-color: #666666;
-          color: #eee; }
-      .work .projects .button-container a {
+  .work .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; }
+    .work .button-container .button {
+      display: block;
+      position: relative;
+      border-radius: 0px;
+      padding: 15px;
+      background-color: orange;
+      text-align: center;
+      color: #1a1a1a; }
+      .work .button-container .button:hover {
+        background-color: #f8cb6b;
         color: #eee;
-        text-decoration: none; }
-  .work #project1 {
-    background: url(/public/images/food2fork.png);
-    background-size: cover;
-    background-position: center; }
-  .work #project2 {
-    background: url(/public/images/real-estate-app.png);
-    background-size: cover;
-    background-position: center; }
-  .work #project3 {
-    background: url(/public/images/heartcafe.png);
-    background-size: cover;
-    background-position: center; }
+        transition: ease-in-out .2s; }
+    .work .button-container #github {
+      background-color: #1a1a1a;
+      color: #eee; }
+      .work .button-container #github:hover {
+        background-color: #666666;
+        color: #eee; }
+    .work .button-container a {
+      color: #eee;
+      text-decoration: none; }
+
+#project1 {
+  background: url(/public/images/food2fork.png);
+  background-size: cover;
+  background-position: center; }
+
+#project2 {
+  background: url(/public/images/real-estate-app.png);
+  background-size: cover;
+  background-position: center; }
+
+#project3 {
+  background: url(/public/images/heartcafe.png);
+  background-size: cover;
+  background-position: center; }
 
 .title {
   text-align: center;
