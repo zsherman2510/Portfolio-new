@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column; }
   .header .head {
-    background-image: url(/public/images/header-image.jpg);
+    background-image: url(/public/images/imagecompressor/header-image-min.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh; }
@@ -161,17 +161,17 @@ nav {
       text-decoration: none; }
 
 #project1 {
-  background: url(/public/images/food2fork.png);
+  background: url(/public/images/imagecompressor/food2fork-min.png);
   background-size: cover;
   background-position: center; }
 
 #project2 {
-  background: url(/public/images/real-estate-app.png);
+  background: url(/public/images/imagecompressor/real-estate-app-min.png);
   background-size: cover;
   background-position: center; }
 
 #project3 {
-  background: url(/public/images/heartcafe.png);
+  background: url(/public/images/imagecompressor/heartcafe-min.png);
   background-size: cover;
   background-position: center; }
 
@@ -193,7 +193,7 @@ nav {
     .learning .learning-container li {
       line-height: 5rem; }
     .learning .learning-container .learn-img {
-      background: url(/public/images/learning-img.jpg);
+      background: url(/public/images/imagecompressor/learning-img-min.jpg);
       background-size: cover;
       background-position: center;
       height: 400px;
@@ -221,7 +221,7 @@ nav {
       flex-flow: wrap;
       width: 400px; }
     .about .about-container .about-img {
-      background-image: url(/public/images/left-img.jpeg);
+      background-image: url(/public/images/imagecompressor/left-img-min.jpeg);
       background-size: cover;
       background-position: top;
       height: 600px;
